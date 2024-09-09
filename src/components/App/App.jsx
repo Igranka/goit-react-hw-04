@@ -1,6 +1,6 @@
 import { createRef, useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import { imageSerfer } from "../axios";
+import { imageSerfer } from "../../axios";
 
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import ImageGallery from "../ImageGallery/ImageGallery";
